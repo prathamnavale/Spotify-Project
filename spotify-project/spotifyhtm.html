@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link
+  href="https://fonts.googleapis.com/css?family=Sofia"
+  rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+   Packify
+  </title>
+  <link href="styles/style.css" rel="stylesheet" />
+  <script src="scripts/app.js"></script>
+</head>
+<body onload="onPageLoad()">
+  <div class = "container">
+    <div id="tokenSelection" class="row">
+      <div class= "col">
+        <div class = "mb-3">
+          <label for = "clientId" class="form-label">Client ID</label>
+          <input type="text" class = "form-control" id="clientId" placeholder="">
+        </div>
+        <div class = "mb-3">
+          <label for = "clientSecret" class="form-label">Client Secret</label>
+          <input type="text" class = "form-control" id="clientSecret" placeholder="">
+        </div> 
+        <input class="btn btn-primary btn-lg" type="button" onclick="requestAuthorization()" value="Request Authorization"><br/>
+      </div>
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+
+ 
+
+</body>
+</html>
