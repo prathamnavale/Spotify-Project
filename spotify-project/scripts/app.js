@@ -64,17 +64,6 @@ function handleAuthorizationResponse(){
 		alert(this.responseText);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
 function getCode(){
 	let code = null;
 	var queryString = window.location.search;
